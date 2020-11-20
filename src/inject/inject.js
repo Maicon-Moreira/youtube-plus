@@ -28,7 +28,7 @@ chrome.extension.sendMessage({}, function (response) {
 
 					console.log(currentHref)
 				}
-			}, 10)
+			}, 1000)
 		}
-	}, 10);
+	}, 1000);
 });
